@@ -1,7 +1,7 @@
 variable "file_count" {
   description = "Number of files"
   type        = number
-  default     = 3
+  default     = 1
 }
 
 variable "file_prefix" {
