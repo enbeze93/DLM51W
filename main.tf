@@ -1,5 +1,10 @@
-resource "local_file" "files" {
-  count    = var.file_count
-  filename = "${path.module}/${var.file_prefix}_${count.index}.txt"
-  content  = var.file_content
+module "files" {
+  source       = "./modules/files"
+  file_count   = 3
+  file_prefix  = "example"
+  file_content = "This is an example file."
+}
+
+output "created_filenames" {
+  value = module.files.filenames
 }
