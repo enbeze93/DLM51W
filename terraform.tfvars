@@ -1,0 +1,7 @@
+answer_1 = "plan"
+answer_2 = "tuple"
+answer_3 = "while"
+answer_4 = "IaaS, PaaS, and SaaS are different cloud service models. IaaS provides virtualized computing resources over the internet. PaaS provides hardware and software tools over the internet. SaaS offers software applications over the internet."
+answer_5 = "Pros of cloud computing include cost efficiency, scalability, and accessibility. Cons include potential security risks and dependency on internet connectivity."
+answer_6 = "Benefits of microservice architecture include improved scalability, flexibility, and the ability to deploy services independently."
+answer_7 = "Companies might choose on-prem services over cloud for reasons such as control over data, compliance with regulations, and existing investments in infrastructure."
